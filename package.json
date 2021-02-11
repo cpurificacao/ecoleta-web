@@ -5,6 +5,10 @@
   "repository": "https://github.com/cpurificacao/ecoleta-web.git",
   "author": "cpurificacao <cpurificacao@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "serve": "webpack serve --mode development --progress --color --inline",
+    "build": "webpack --mode production --progress"
+  },
   "devDependencies": {
     "@babel/core": "7.12.13",
     "@babel/preset-env": "7.12.13",
